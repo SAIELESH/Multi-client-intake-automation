@@ -17,7 +17,7 @@ This automation streamlines the client intake process for multiple departments u
 - Make Email Module (SMTP or OAuth)
 
 ## Scenario Screenshot
-![Scenario Flow](Scenario-flow/flow-design.png)
+![Alt text](Scenario-flow/flow-design.png)
 
 ## Sample Data
 See `sample-data.csv` for sample form responses used for testing.
