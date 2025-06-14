@@ -6,7 +6,7 @@ This automation streamlines the end-to-end client intake workflow by integrating
 
 ## Live Demo
 
-![image](https://github.com/SAIELESH/Multi-client-intake-automation/blob/4318d064f98cc29a1fa27e358f07a40f02598bd0/Demo/AI%20automation%20-.mp4).
+![video](https://github.com/SAIELESH/Multi-client-intake-automation/blob/4318d064f98cc29a1fa27e358f07a40f02598bd0/Demo/AI%20automation%20-.mp4).
 
 This demo showcases:
 
