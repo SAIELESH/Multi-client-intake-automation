@@ -4,6 +4,19 @@
 
 This automation streamlines the end-to-end client intake workflow by integrating Google Forms, Make.com, Google Sheets, ClickUp, and Email. It dynamically routes submissions based on priority, logs entries, assigns tasks, and confirms receipt via email—completely automated and no-code.
 
+## Live Demo
+
+[Click to watch the end-to-end automation in action](Demo/AI automation -.mp4).
+
+This demo showcases:
+
+- Google Form submission
+- Webhook triggering the Make.com scenario
+- Dynamic variable cleanup and routing logic
+- Google Sheets logging
+- ClickUp task creation
+- Confirmation email dispatch
+
 ## Workflow Steps
 
 - **1. Google Form Submission**
@@ -65,14 +78,15 @@ This automation streamlines the end-to-end client intake workflow by integrating
 - Consulting Project Onboarding
 
 ## Scenario Screenshot.
+
 ![image](https://github.com/user-attachments/assets/09847228-497c-44ac-9653-224f2b5557dc)
 
+## Files Included
 
-## Sample Data.
-See `sample-data.csv` for sample form responses used for testing.
-
-## Email Template.
-See `client-email-template.md` for automated email body used.
+- `form_to_webhook.js` – Google Apps Script to forward form submissions to Make - present in scripts folder.
+- `Client Service Request Intake Form (Responses).xlsx` – Sample responses used for testing.
+- `Client intake log.xlsx` - Preprocessed form responses data.
+- `client-email-template.md` – Template for confirmation emails.
 
 ## Result.
 This automation reduced manual processing time by over 90% and helped organize incoming client requests into actionable tasks with zero human intervention.
