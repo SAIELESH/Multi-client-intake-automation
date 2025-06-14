@@ -60,7 +60,7 @@ This automation streamlines the end-to-end client intake workflow by integrating
 ## Use Cases
 
 - B2B Service Intake
-- 🛠Tech Support or IT Helpdesk
+- Tech Support or IT Helpdesk
 - Freelance Client Requests
 - Consulting Project Onboarding
 
