@@ -1,75 +1,68 @@
-# Multi-Client Intake Automation using Google Forms, Webhook, Google sheets, Make.com, ClickUp & Email.
+# Multi-Client Intake Automation using Google Forms, Webhooks, Make.com, Google Sheets, ClickUp & Email.
 
-Overview.
+## Overview.
 
-This automation streamlines the end-to-end client intake workflow using Google Forms, Make.com, Google Sheets, ClickUp, and Email. The system dynamically routes form submissions based on priority, logs entries, creates tasks for internal teams, and confirms receipt to the client via email.
+This automation streamlines the end-to-end client intake workflow by integrating Google Forms, Make.com, Google Sheets, ClickUp, and Email. It dynamically routes submissions based on priority, logs entries, assigns tasks, and confirms receipt via email—completely automated and no-code.
 
-## Workflow Steps.
+## Workflow Steps
 
-1. Google Form Submission.
-   The form collects the following required fields:
-   Client Name
-   Email Address
-   Service Type
-   Message/Request
-   Priority (High, Medium, Low)
+- **1. Google Form Submission**
+  - Collects: Client Name, Email, Service Type, Message, Priority
 
-2. Webhook (Make.com).
-   A Make.com Webhook captures form submissions instantly via Google Apps Script.
+- **2. Webhook Trigger (Make.com)**
+  - Captures real-time responses using Google Apps Script and sends data to Make.com
 
-3. Tools Module - Set Multiple Variables.
-   Cleans the input by:
-   Trimming whitespace
-   Capitalising or lowering case as appropriate
-   Formatting fields for consistency
+- **3. Tools Module – Set Multiple Variables**
+  - Cleans data:
+    - Trims whitespace
+    - Formats casing
+    - Normalizes values
 
-4. Router Module (Priority-Based Logic).
-   Routes the submission to different flows based on priority:
-   High ➔ Escalation Path
-   Medium ➔ Standard Support Path
-   Low ➔ Backlog Handling Path
+- **4. Router Module – Priority-Based Logic**
+  - Routes submissions based on:
+    - **High Priority** → Escalation Path
+    - **Medium Priority** → Standard Support
+    - **Low Priority** → Backlog Queue
 
-5. Google Sheets Logging.
-   Logs the submission with:
-   Timestamp
-   Client Name
-   Email
-   Priority
-   Service Type
-   Message
-   Routed To (team/priority)
+- **5. Google Sheets Logging**
+  - Logs:
+    - Timestamp
+    - Name
+    - Email
+    - Priority
+    - Service Type
+    - Message
+    - Routed Team
 
-6. ClickUp Task Creation.
-   Creates a task in ClickUp for internal handling:
-   High ➔ Escalation Team
-   Medium ➔ Standard Support Team
-   Low ➔ Backlog Team
+- **6. ClickUp Task Creation**
+  - Creates internal tasks in ClickUp for the respective team based on priority
 
-7. Email Confirmation.
-   Sends a confirmation email back to the client acknowledging receipt of the request.
+- **7. Email Confirmation**
+  - Sends an automated email to confirm receipt to the client
 
-## Tech Stack.
+## Tech Stack
 
- 1. Google Forms
- 2. Google Apps Script (Webhook trigger)
- 3. Make.com
- 4. Google Sheets
- 5. ClickUp
- 6. Email
+- Google Forms
+- Google Apps Script
+- Make.com (formerly Integromat)
+- Google Sheets
+- ClickUp
+- Gmail / Outlook
 
-## Key Benefits.
+## Key Benefits
 
- 1. Instant intake processing
- 2. Smart routing saves team time
- 3. Auto-logging for audit & tracking
- 4. Fully no-code (via Make.com)
- 5. Error-handled and scalable
+- Instant processing of form submissions  
+- Smart team routing via automation  
+- Auto-logging for visibility & tracking  
+- Fully no-code (fast to deploy)  
+- Error-handled and scalable
 
-## Use Cases.
- 1. B2B Service Request Handling
- 2. Tech Support Ticketing
- 3. Freelance Agency Client Intake
- 4. Consulting Firms with Multi-Team Ops
+## Use Cases
+
+- B2B Service Intake
+- 🛠Tech Support or IT Helpdesk
+- Freelance Client Requests
+- Consulting Project Onboarding
 
 ## Scenario Screenshot.
 ![image](https://github.com/user-attachments/assets/09847228-497c-44ac-9653-224f2b5557dc)
