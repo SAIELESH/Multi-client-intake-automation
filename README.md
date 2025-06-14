@@ -72,7 +72,7 @@ This automation streamlines the end-to-end client intake workflow using Google F
  4. Consulting Firms with Multi-Team Ops
 
 ## Scenario Screenshot.
-![Alt text](Scenario-flow/flow-design.png)
+![Alt text](Scenario-flow/flow-design .png)
 
 ## Sample Data.
 See `sample-data.csv` for sample form responses used for testing.
