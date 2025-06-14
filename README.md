@@ -75,7 +75,7 @@ See `sample-data.csv` for sample form responses used for testing.
 See `client-email-template.md` for automated email body used.
 
 ## Result.
-Reduced intake processing time by 90%, improved team response speed, and made onboarding scalable across clients.
+This automation reduced manual processing time by over 90% and helped organize incoming client requests into actionable tasks with zero human intervention.
 
 ## Author.
 Sailesh Krishnan
